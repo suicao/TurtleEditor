@@ -4,21 +4,6 @@
  * and open the template in the editor.
  */
 
-/*
- *TextEditor
- *
- *49 AutoCompleteClass autoComplete=new AutoCompleteClass(this);
- *71 editorPane.addKeyListener(autoComplete.ACKeyListener);
- editorPane.getDocument().addDocumentListener(autoComplete.ACDocListener);
- *153 WebButton ACSetting = new WebButton();     
- *239 ACSetting.setIcon(new ImageIcon("images/stock.png"));
- *
- *MyActionHandler
- *153 editor.editorPane.getDocument().addDocumentListener(editor.autoComplete.ACDocListener);
- editor.editorPane.addKeyListener(editor.autoComplete.ACKeyListener);
- editor.autoComplete.changeType(editor.editorPane.getContentType());
- *211 editor.editorPane.getDocument().addDocumentListener(editor.autoComplete.ACDocListener);
- */
 package text;
 
 import com.alee.extended.panel.WebButtonGroup;
